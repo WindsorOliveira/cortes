@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cortes Milionários | Acervo Premium</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --gold: #f1c40f;
+            --dark: #0a0a0a;
+            --card: #151515;
+            --green: #2ecc71;
+            --red: #e74c3c;
+            --warning-bg: #fff3cd;
+            --warning-text: #856404;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background-color: var(--dark); color: white; line-height: 1.6; }
+
+        .container { 
+            width: 90%; 
+            max-width: 1000px; 
+            margin: 0 auto; 
+            padding: 40px 0; 
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            text-align: center;
+        }
+
+        .top-bar { background: var(--red); text-align: center; padding: 10px; font-weight: bold; font-size: 0.9rem; text-transform: uppercase; width: 100%; position: fixed; top: 0; z-index: 1000; }
+
+        header { margin-top: 60px; }
+        h1 { font-size: 2.5rem; text-transform: uppercase; font-weight: 900; margin-bottom: 20px; }
+        .highlight { color: var(--gold); }
+
+        .alert-section {
+            background: var(--warning-bg);
+            color: var(--warning-text);
+            padding: 25px;
+            border-radius: 12px;
+            margin: 20px 0;
+            max-width: 800px;
+            border-left: 6px solid #ffeeba;
+            text-align: left;
+        }
+
+        .single-image-section {
+            width: 100%;
+            max-width: 800px;
+            margin: 40px 0;
+            border-radius: 20px;
+            overflow: hidden;
+            border: 3px solid #333;
+            box-shadow: 0 0 30px rgba(241, 196, 15, 0.2);
+        }
+        .single-image-section img { width: 100%; height: auto; display: block; }
+
+        .niche-grid { 
+            display: grid; 
+            grid-template-columns: repeat(2, 1fr); 
+            gap: 20px; 
+            margin: 40px 0;
+            width: 100%;
+            max-width: 700px;
+        }
+        .niche-card { 
+            background: var(--card); 
+            padding: 25px; 
+            border-radius: 15px; 
+            border: 1px solid #333;
+        }
+
+        .btn-cta {
+            display: inline-block;
+            background: linear-gradient(90deg, #f1c40f, #d4ac0d);
+            color: black;
+            text-decoration: none;
+            padding: 20px 40px;
+            border-radius: 12px;
+            font-size: 1.4rem;
+            font-weight: 900;
+            margin: 15px 0;
+            width: 100%;
+            max-width: 450px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.03); }
+            100% { transform: scale(1); }
+        }
+
+        .pricing {
+            background: var(--card);
+            border: 3px solid var(--gold);
+            border-radius: 25px;
+            padding: 40px 20px;
+            margin: 40px 0;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        /* FAQ STYLE */
+        .faq-section { width: 100%; max-width: 800px; margin-top: 60px; text-align: left; }
+        .faq-item { background: #111; padding: 20px; border-radius: 10px; margin-bottom: 10px; border: 1px solid #222; }
+        .faq-item b { color: var(--gold); display: block; margin-bottom: 5px; font-size: 1.1rem; }
+
+        @media (max-width: 600px) {
+            .niche-grid { grid-template-columns: 1fr; }
+            h1 { font-size: 1.8rem; }
+            .btn-cta { font-size: 1.1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">🚨 OFERTA DE VIRADA: ACESSO VITALÍCIO POR APENAS R$ 9,90</div>
+
+    <header class="container">
+        <h1>O Atalho para seu <span class="highlight">Conteúdo Viral</span></h1>
+        
+        <div class="alert-section">
+            <h4><i class="fas fa-exclamation-triangle"></i> ATENÇÃO AOS DIREITOS AUTORAIS</h4>
+            <p>Este acervo é o seu material bruto de elite. Para garantir a monetização e evitar "conteúdo repetitivo", **adicione valor aos cortes**: coloque suas próprias legendas, faça edições criativas ou adicione uma narração. Dê sua personalidade ao conteúdo!</p>
+        </div>
+
+        <a href="https://sun.eduzz.com/KW8KD74D01" class="btn-cta">QUERO ACESSAR O DRIVE AGORA</a>
+
+        <section class="single-image-section">
+            <img src="ss.JPG" alt="Preview dos Nichos">
+        </section>
+
+        <a href="https://sun.eduzz.com/KW8KD74D01" class="btn-cta" style="background: var(--green); color: white;">COMPRAR POR R$ 9,90</a>
+    </header>
+
+    <section class="container" style="padding-top: 0;">
+        <h2 class="highlight">NICHOS ESTRATÉGICOS INCLUSOS</h2>
+        
+        <div class="niche-grid">
+            <div class="niche-card">
+                <i class="fas fa-headphones" style="font-size: 2rem; color: var(--gold); margin-bottom: 10px;"></i>
+                <h3>ASMR PREMIUM</h3>
+                <p>O nicho que mais viraliza no mundo. Vídeos de alta retenção.</p>
+            </div>
+            <div class="niche-card">
+                <i class="fas fa-gem" style="font-size: 2rem; color: var(--gold); margin-bottom: 10px;"></i>
+                <h3>LIFESTYLE LUXO</h3>
+                <p>Carros, mansões e ostentação para canais de motivação.</p>
+            </div>
+            <div class="niche-card">
+                <i class="fas fa-microphone" style="font-size: 2rem; color: var(--gold); margin-bottom: 10px;"></i>
+                <h3>CORTES PODCAST</h3>
+                <p>Finanças e Mindset (Pablo Marçal, Thiago Nigro e mais).</p>
+            </div>
+            <div class="niche-card">
+                <i class="fas fa-film" style="font-size: 2rem; color: var(--gold); margin-bottom: 10px;"></i>
+                <h3>CENAS 4K</h3>
+                <p>Os melhores momentos de filmes e séries prontos para editar.</p>
+            </div>
+        </div>
+
+        <a href="https://sun.eduzz.com/KW8KD74D01" class="btn-cta">GARANTIR MEU ACERVO VITALÍCIO</a>
+
+        <div class="faq-section">
+            <h2 style="text-align: center; margin-bottom: 30px;">Dúvidas Frequentes</h2>
+            <div class="faq-item">
+                <b>Como eu recebo o conteúdo?</b>
+                O acesso é imediato. Assim que o pagamento for aprovado, você recebe o link do Google Drive diretamente no seu e-mail.
+            </div>
+            <div class="faq-item">
+                <b>O pagamento é mensal?</b>
+                Não! Você paga apenas uma vez R$ 9,90 e tem acesso vitalício ao acervo atual.
+            </div>
+            <div class="faq-item">
+                <b>Posso editar pelo celular?</b>
+                Sim! Todos os vídeos são compatíveis com CapCut, Premiere, InShot e qualquer outro editor mobile ou PC.
+            </div>
+            <div class="faq-item">
+                <b>Vou ter problemas com direitos autorais?</b>
+                Seguindo nossa dica de adicionar legendas e edições próprias, você minimiza riscos e aumenta as chances de monetização orgânica.
+            </div>
+        </div>
+
+        <div class="pricing">
+            <p style="text-decoration: line-through; color: #888;">De R$ 29,90 por apenas:</p>
+            <div style="display: flex; justify-content: center; align-items: flex-start; gap: 5px;">
+                <span style="font-size: 1.8rem; margin-top: 25px;">R$</span>
+                <span style="font-size: 5rem; font-weight: 900; color: var(--green);">9,90</span>
+            </div>
+            <a href="https://sun.eduzz.com/KW8KD74D01" class="btn-cta">APROVEITAR PROMOÇÃO</a>
+        </div>
+    </section>
+
+    <footer style="text-align: center; padding: 40px; color: #444; font-size: 0.8rem;">
+        &copy; 2026 Cortes Milionários - O maior drive de criadores do Brasil.
+    </footer>
+
+</body>
+</html>
